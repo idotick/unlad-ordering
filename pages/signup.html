@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel='icon' href='/italianPoker.ico'>
+	<title>Sign up to iskolar</title>
+	<link href='./css/global.css' rel='stylesheet' type='text/css'>
+	<link href='./css/signup.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<main>
+		<h1>iskolar</h1>
+
+		<form id="signup_form" onload="showTab(0);">
+			<section>
+				<p>enter your full name</p>
+				<div>
+					<label for="name">full name</label>
+					<input type="text" id="name" name="name">
+				</div>
+
+				<p>enter your institutional email</p>
+				<div>
+					<label for="email">email</label>
+					<input type="email" id="email" name="email">
+				</div>
+			</section>
+			
+			<section>
+				<p>enter your graduation year</p>
+				<div>
+					<label for="batch">batch</label>
+					<input type="text" id="batch" name="batch">
+				</div>
+
+				<p>grade and section</p>
+				<div>
+					<label for="grade">grade</label>
+					<input type="text" id="grade" name="grade">
+				</div>
+				
+				<div>
+					<label for="section">section</label>
+					<input type="text" id="section" name="section">
+				</div>
+			</section>
+			
+			<section>
+				<p>enter your password, and confirm it</p>
+				<div>
+					<label for="password">password</label>
+					<input type="password" id="password" name="password">
+				</div>
+
+				<div>
+					<label for="confirmation">confirm password</label>
+					<input type="password" id="confirmation" name="confirmation">
+				</div>
+
+				<label for="tos">I agree to the TOS</label>
+				<input type="checkbox" id="tos" name="tos">
+			</section>
+
+			<button id="prev" value="previous" onclick="">
+			<button id="next" value="next" onclick="">
+>
+			<footer>
+				<span></span>
+				<span></span>
+				<span></span>
+			</footer>
+		</form>
+	</main>
+
+	<footer>
+		<p>already have an account? <a href="./index.html">log in</a></p>
+	</footer>
+
+	<script src='.script/pagination.js'></script>
+</body>
+
+</html>
