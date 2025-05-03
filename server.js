@@ -7,9 +7,9 @@ const server = http.createServer(app);
 const port = 8080;
 
 
-app.use(express.static(path.join(__dirname, 'pages')));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/pages/')));
+app.use(express.static(path.join(__dirname, '/public/')));
   
 app.listen(port, () => {
-	console.log(`iskolar up on http://localhost:${port}`);
+	console.log(`iskolar ordering system up on http://localhost:${port}`);
 })
