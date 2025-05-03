@@ -11,5 +11,5 @@ app.use(express.static(path.join(__dirname, '/pages/')));
 app.use(express.static(path.join(__dirname, '/public/')));
   
 app.listen(port, () => {
-	console.log(`iskolar ordering system up on http://localhost:${port}`);
+	console.log(`iskolar order display system up on http://localhost:${port}`);
 })

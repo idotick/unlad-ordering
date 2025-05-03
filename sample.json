@@ -1,0 +1,35 @@
+[{"oid": "123123123213123","customer": "Lean Alejandro", "time": "06:35:16 AM"
+																				"items": [{"name": "whole rice","amount": 2},
+																				{"name": "½ cup rice","amount": 1},
+																				{"name": "beef tapa","amount": 2},
+																				{"name": "banana","amount": 1},
+																				{"name": "chuckie","amount": 1},
+																				{"name": "siomai","amount": 1}]},
+			 {"oid": "2786216723","customer": "Kyle Ramirez", "time": "06:43:42 AM"
+			 																	"items": [{"name": "whole rice","amount": 1},
+			 																	{"name": "cordon bleu","amount": 1},
+			 																	{"name": "yakult","amount": 2}]},
+			 {"oid": "2786216723","customer": "Nicole Herrera", "time": "09:59:33 AM"
+			 																	"items": [{"name": "whole rice","amount": 1},
+			 																	{"name": "½ rice","amount": 1},
+			 																	{"name": "corned beef","amount": 2},
+			 																	{"name": "butter mixed vegetables","amount": 1},
+			 																	{"name": "bear brand drink","amount": 1}]},
+			 {"oid": "2786216723","customer": "Brian Bautista","time": "11:56:51 AM"
+			 																	"items": [{"name": "whole rice","amount": 3},
+			 																	{"name": "corned beef","amount": 1},
+			 																	{"name": "butter mixed vegetables","amount": 1},
+			 																	{"name": "sinigang na baboy","amount": 1},
+			 																	{"name": "buko juice","amount": 2},
+			 																	{"name": "yakult","amount": 1}]},
+			 {"oid": "2786216723","customer": "Ralph Datoon","time": "4:09:17 PM"
+			 																	"items": [{"name": "whole rice","amount": 2},
+			 																	{"name": "sinigang","amount": 1},
+			 																	{"name": "vitamilk","amount": 1}]},
+			 {"oid": "2786216723","customer": "Krisha Gonzales","time": "06:37:52 AM"
+			 																	"items": [{"name": "½ rice","amount": 1},
+			 																	{"name": "fried egg","amount": 1},
+			 																	{"name": "luncheon meat","amount": 2},
+			 																	{"name": "banana","amount": 2},
+			 																	{"name": "buko juice","amount": 1},
+			 																	{"name": "mang juan","amount": 1}]}];
