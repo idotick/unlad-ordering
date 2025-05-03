@@ -36,6 +36,10 @@ function update() {
 		const disp = document.createElement('article');
 		const list = document.createElement('ul');
 
+		const missing = document.getElementById('missing');
+		const done = document.getElementById('done');
+		const total = document.getElementById('total');
+
 		// Add content (name, ordered items)
 		disp.innerHTML = `<div>${order.customer}</div>\n`;
 
@@ -45,14 +49,25 @@ function update() {
 
 		// Remove order on click
 		disp.addEventListener('click', () => {
-			disp.remove();
-		})
+			missing.innerText = (parseInt(missing.innerText) - 1).toString();
+			done.innerText = (parseInt(done.innerText) + 1).toString();
 
+			disp.remove();
+		});
+
+		missing.innerText = orders.length.toString();
+		total.innerText = orders.length.toString();
+		
 		// Display on website
 		disp.appendChild(list);
-		main.appendChild(disp);
+		for (let i = 0; i < orders.length; i++) {
+			if (orders[i] === order) {
+				document.getElementById(`col${i % 5}`).appendChild(disp);
+				break;
+			}
+		}
 	});
 }
 
 // TODO: update whenever change in server
-setTimeout(update, 5000);
+setTimeout(update, 1000);
